@@ -31,12 +31,10 @@ public class Fragment3 extends Fragment {
                 if (img == 1) {
                     imageView.setImageResource(R.drawable.draw1);
                     img = 2;
-                }
-                if (img == 2) {
+                } else if (img == 2) {
                     imageView.setImageResource(R.drawable.draw2);
                     img = 3;
-                }
-                if (img == 3) {
+                } else if (img == 3) {
                     imageView.setImageResource(R.drawable.draw3);
                     img = 1;
                 }
